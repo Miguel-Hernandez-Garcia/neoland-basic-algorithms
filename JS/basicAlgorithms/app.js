@@ -56,7 +56,7 @@ let firstName = "Jon";
 let lastName = "Snow";
 let age = 24;
 
-let concatenate = 'Soy ${firstName} ${lastName}, tengo ${age} años y me gustan los lobos.';
+let concatenate = `Soy ${firstName} ${lastName}, tengo ${age} años y me gustan los lobos.`;
 console.log(concatenate);
 
 /*---------------------------------------------------------------------------
