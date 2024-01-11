@@ -232,3 +232,39 @@ if (number3*5==number1) {
 if (number3*5==number1 && number1*2==number2) {
 	console.log("number3 por 5 es igual a number1 Y number1 por 2 es igual a number2");
   };
+
+/* EJERCICIOS DE BASIC ALGORITHMS DE JAVASCRIPT
+Iteracion 6: Bucles*/
+
+/*------------------------------------------------------------------------------------------------------------
+//? 6.1 Crea un bucle for que vaya desde 0 a 9 y muestralo por consola.
+------------------------------------------------------------------------------------------------------------*/
+
+for (let cuentaadelante = 0; cuentaadelante <=9; cuentaadelante++) {
+	console.log(cuentaadelante);
+};
+
+/*------------------------------------------------------------------------------------------------------------
+//? 6.2 Crea un bucle for que vaya desde 0 a 9 y muestralo por consola solo cuando el resto del numero dividido entre 2 sea 0.
+------------------------------------------------------------------------------------------------------------*/
+
+for (let cuentaadelanteresto = 0; cuentaadelanteresto <=9; cuentaadelanteresto++) {
+	if (cuentaadelanteresto%2==0) {console.log(cuentaadelanteresto)};
+};
+
+/*------------------------------------------------------------------------------------------------------------
+//? 6.3 Crea un bucle para conseguir dormir contando ovejas. 
+Este bucle tiene que dar 10 vueltas, es decir, 10 console.log.
+Muestra por consola un mensaje diciendo 'Intentando dormir 🐑' en cada vuelta del bucle 
+y cambia el mensaje en la décima vuelta a 'Dormido!'.
+------------------------------------------------------------------------------------------------------------*/
+let ovejas = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+for (ovejas[0]; ovejas[0] <=10; ovejas++) {
+	if (ovejas[0]<=9) {console.log("Intentando dormir 🐑")};
+	if (ovejas[0]=10) {console.log("Dormido!")}
+};
+
+//EJERCICIO 6.3. PENDIENTE DE COMPLETAR CUANDO VEAMOS LOS BUCLES.
+
+
