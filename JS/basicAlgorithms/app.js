@@ -132,3 +132,64 @@ let c = 10;
 let m = 5;
 let i = c*m;
 console.log(i);
+
+/* EJERCICIOS DE BASIC ALGORITHMS DE JAVASCRIPT
+Iteracion 4: Arrays*/
+
+/*------------------------------------------------------------------------------------------------------------
+//? 4.1 Consigue el valor "HULK" del array de avengers y muestralo por consola.
+const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+------------------------------------------------------------------------------------------------------------*/
+
+const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+const avenger1 = avengers[0];
+console.log("🚀 ~ avenger1:", avenger1);
+
+/*------------------------------------------------------------------------------------------------------------
+//? 4.2 Cambia el primer elemento de avengers a "IRONMAN"
+const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+------------------------------------------------------------------------------------------------------------*/
+
+const avengers2 = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+/* CREO UNA CONST NUEVA PARA QUE NO HAGA CONFLICTO CON LA DEL EJERCICIO ANTERIOR.
+SÉ QUE TAMBIÉN SE PODRÍA CAMBIAR DIRECTAMENTE SOBRE LA QUE YA ESTABA, PERO ES PARA QUE ESTE EJERCICIO SE MUESTRE CON CLARIDAD. */
+
+avengers2[0] = "IRONMAN";
+console.log("🚀 ~ avengers2:", avengers2);
+
+/*------------------------------------------------------------------------------------------------------------
+//? 4.3 console numero de elementos en el array usando la propiedad correcta de Array.
+const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+------------------------------------------------------------------------------------------------------------*/
+
+const numberofavengers = avengers.length;
+console.log("🚀 ~ numberofavengers:", numberofavengers);
+
+/*------------------------------------------------------------------------------------------------------------
+//? 4.4 Añade 2 elementos al array: "Morty" y "Summer". 
+Muestra en consola el último personaje del array
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
+------------------------------------------------------------------------------------------------------------*/
+
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
+rickAndMortyCharacters.push("Morty", "Summer");
+console.log("🚀 ~ rickAndMortyCharacters:", rickAndMortyCharacters[4]);
+
+/*------------------------------------------------------------------------------------------------------------
+//? 4.5 Elimina el último elemento del array y muestra el primero y el último por consola.
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+------------------------------------------------------------------------------------------------------------*/
+
+const rickAndMortyCharacters2 = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+rickAndMortyCharacters2.pop();
+rickAndMortyCharacters2.shift();
+console.log("🚀 ~ rickAndMortyCharacters2:", rickAndMortyCharacters2[0], rickAndMortyCharacters2[3]);
+
+/*------------------------------------------------------------------------------------------------------------
+//? 4.6 Elimina el segundo elemento del array y muestra el array por consola.
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+------------------------------------------------------------------------------------------------------------*/
+
+const rickAndMortyCharacters3 = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+rickAndMortyCharacters3.splice(1,1);
+console.log("🚀 ~ rickAndMortyCharacters3:", rickAndMortyCharacters3);
