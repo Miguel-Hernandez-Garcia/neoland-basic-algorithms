@@ -258,13 +258,10 @@ Este bucle tiene que dar 10 vueltas, es decir, 10 console.log.
 Muestra por consola un mensaje diciendo 'Intentando dormir 🐑' en cada vuelta del bucle 
 y cambia el mensaje en la décima vuelta a 'Dormido!'.
 ------------------------------------------------------------------------------------------------------------*/
-let ovejas = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-for (ovejas[0]; ovejas[0] <=10; ovejas++) {
-	if (ovejas[0]<=9) {console.log("Intentando dormir 🐑")};
-	if (ovejas[0]=10) {console.log("Dormido!")}
+for (let i = 0; i <=10; i++) {
+	if (i<=9) {console.log("Intentando dormir 🐑")}
+	else {console.log("Dormido!")};
 };
-
-//EJERCICIO 6.3. PENDIENTE DE COMPLETAR CUANDO VEAMOS LOS BUCLES.
 
 
